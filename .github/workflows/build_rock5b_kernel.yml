@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Clone Armbian Build
         run: |
-          git clone git clone https://github.com/armbian/build
+          git clone https://github.com/armbian/build
           cd build
           sudo ./compile.sh kernel BOARD=rock-5b KERNEL_MAJOR_MINOR=7.0
 
