@@ -23,5 +23,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: rock5b-mainline-kernel
-          path: output/packages-hashed/*
+          path: output/packages-hashed/*.tar
           retention-days: 7  # 产物保留7天（可调整）
