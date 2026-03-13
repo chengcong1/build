@@ -15,7 +15,7 @@ jobs:
         run: |
           git clone https://github.com/armbian/build
           cd build
-          sudo ./compile.sh kernel BOARD=rock-5b BRANCH=edge KERNELBRANCH="tag:v7.0-rc3" KERNEL_MAJOR_MINOR=7.0 
+          ./compile.sh kernel BOARD=rock-5b BRANCH=edge KERNELBRANCH="tag:v7.0-rc3" KERNEL_MAJOR_MINOR=7.0 
 
 
       # 步骤6：上传产物到GitHub Artifact（可下载）
